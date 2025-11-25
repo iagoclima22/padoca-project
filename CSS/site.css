@@ -59,12 +59,12 @@ ul li a{
 .faxada{
     margin-top: 100px;
 }
-.faxada .tax{
+.faxada .text{
     letter-spacing: 1.8px;
     text-align: center;
     margin-top: 30px;
 }
-.faixada .caixa{
+.faxada .caixa{
     background-color: #ff9535;
     border-radius: 5px;
     padding: 10px;
@@ -77,8 +77,44 @@ ul li a{
     width: 100%;
     display: block;
 }
-.faixada .img{
+.faxada .img{
     padding: 30px;
     background-color: blanchedalmond;
     border-radius: 5px;
+}
+/* PRODUTOS */
+.produtos{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right, #ff9535, #f7b06d);
+    margin-top: 150px;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+.produtos .big-title{
+    color: #e8e8e8;
+    margin-bottom: 50px;
+}
+.produtos .big-title::after{
+    content: "";
+    width: 50%;
+    height: 6px;
+    display: block;
+    background-color: #e8e8e8;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.produtos .box-3{
+    padding: 10px;
+    background-color: #e8e8e8;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: all .15s ease-in-out;
+}
+.produtos .box-3:hover{
+    transform: scale(1.1);
+}
+.produtos .box-3 img{
+    width: 100%;
 }
