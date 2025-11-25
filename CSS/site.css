@@ -48,3 +48,37 @@ ul li a{
     font-weight: 600;
     color: black;
 }
+/* FAXADA */
+.big-title{
+    font-size: 46px;
+    text-align: center;
+}
+.faxada .big-title{
+    margin-top: 100px;
+}
+.faxada{
+    margin-top: 100px;
+}
+.faxada .tax{
+    letter-spacing: 1.8px;
+    text-align: center;
+    margin-top: 30px;
+}
+.faixada .caixa{
+    background-color: #ff9535;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.faxada img{
+    width: 100%;
+    display: block;
+}
+.faixada .img{
+    padding: 30px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
