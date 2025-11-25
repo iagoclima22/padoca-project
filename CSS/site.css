@@ -27,6 +27,8 @@ html { letter-spacing: 1.4px; font-family: "Poppins", sans-serif; font-weight: 4
     width: 100%;
     height: 80px;
     padding: 10px;
+    position: fixed;
+    top:0;
 }
 nav{
     width: 100%;
@@ -57,7 +59,7 @@ ul li a{
     margin-top: 100px;
 }
 .faxada{
-    margin-top: 100px;
+    margin-top: 200px;
 }
 .faxada .text{
     letter-spacing: 1.8px;
@@ -117,4 +119,95 @@ ul li a{
 }
 .produtos .box-3 img{
     width: 100%;
+}
+/* SOBRE */
+.sobre{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    background: linear-gradient(to right, #f0f0f0, #c4c3c3);
+    margin-top: 150px;
+    padding-top: 100px;
+}
+.sobre .big-title::after{
+    content: "";
+    width: 200px;
+    height: 6px;
+    display: block;
+    margin: 10px auto;
+    background-color: #1c1c1c;
+    margin-top: 10px;
+}
+.sobre .box-4{
+    background-color: #f7b06d;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sobre .box-8{
+    padding: 10px;
+    background-color: #e8e8e8;
+}
+.sobre img{
+    width: 100%;
+}
+.sub-title{
+    font-size: 28px;
+    text-align: center;
+}
+.paragrafo{
+    letter-spacing: 1.4px;
+    text-align: center;
+}
+
+.contato{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    margin-top: 130px;
+    background-color: #f7b06d;
+    padding-top: 40px;
+}
+.contato .big-title{
+    background-color: #e8e8e8;
+}
+.contato .big-title::after{
+    content: "";
+    width: 200px;
+    height: 6px;
+    display: block;
+    margin: 0 auto;
+    background-color: #e8e8e8;
+    margin-bottom: 50px;
+}
+.contato form{ 
+    width: 100%;
+    color: #ffffff;
+}
+.contato input, textarea{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 .1rem .2rem #be6938;
+}
+
+.contato textarea{
+    height: 150px;
+}
+.btn{
+    background: linear-gradient(to left, #dcdcdc, #eeeeee);
+    color: #1c1c1c;
+}
+.btn:hover{
+    background: linear-gradient(to left, #eeeeee, #dcdcdc);
+}
+.contato .sub{
+    font-size: 20px;
+    color: #f0f0f0;
+    margin-bottom: 20px;
 }
