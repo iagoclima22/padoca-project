@@ -211,3 +211,8 @@ ul li a{
     color: #f0f0f0;
     margin-bottom: 20px;
 }
+.contato ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
