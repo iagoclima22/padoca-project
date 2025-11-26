@@ -231,3 +231,8 @@ ul li a{
 .contato ul li .whats:hover{
     color: rgb(9, 117, 36)
 }
+footer{
+    padding: 30px;
+    text-align: center;
+    font-size: 12px;
+}
