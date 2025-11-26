@@ -212,7 +212,22 @@ ul li a{
     margin-bottom: 20px;
 }
 .contato ul{
+    margin-top: 80px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
+    padding: 30px;
+}
+.contato ul li{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    border-bottom: 2px solid #fff;
+}
+.contato ul li i{
+    font-size: 38px;
+    margin-right: 10px;
+}
+.contato ul li .whats:hover{
+    color: rgb(9, 117, 36)
 }
